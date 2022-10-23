@@ -37,8 +37,15 @@
         </nav>
 
         <ul class="header-connect">
-          <li><a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link phone">+38 096 111 11 11</a></li>
+          <li><a href="mailto:info@devstudio.com" class="link mail mail-wrap">
+            <svg class="envelop-icon" width="16" height="24">
+              <use href="./img/tel-mail.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111" class="link phone phone-wrap">
+            <svg class="phone-icon" width="10" height="16">
+              <use href="./img//tel-mail.svg#icon-tel-icon"></use>
+            </svg>
+            +38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -54,42 +61,59 @@
       <section class="about">
         <div class="container">
           <h2 class="visually-hidden">особливості</h2>
-          <ul class="features-list">
-            <li>
-              
+
+          <ul class="whatwedo-list list">
+        <li class="whatwedo-item"><a href="" class="whatwedo-link link">
+          <svg class="whatwedo-icon" width="70" height="70">
+                    <use href="./img/whatwedo-icons.svg#icon-antenna-1"></use>
+                  </svg>
+                  </a>
                 <h3 class="features-title features-title-wrap">Увага до деталей</h3>
                 <p class="portfolio-text">
                   Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
                 </p>
             
-            </li>
-            <li>
-              
-                <h3 class="features-title features-title-wrap">Пунктуальність</h3>
+                </li>
+        <li class="whatwedo-item"><a href="" class="whatwedo-link link">
+
+          <svg class="whatwedo-icon" width="70" height="70">
+                    <use href="./img/whatwedo-icons.svg#icon-clock-1"></use>
+                  </svg>
+
+        </a>
+      <h3 class="features-title features-title-wrap">Пунктуальність</h3>
                 <p class="portfolio-text">
                   Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                 </p>
               
-            </li>
-            <li>
-              
-                <h3 class="features-title features-title-wrap">Планування</h3>
+      </li>
+        <li class="whatwedo-item"><a href="" class="whatwedo-link link">
+          <svg class="whatwedo-icon" width="70" height="70">
+                    <use href="./img/whatwedo-icons.svg#icon-diagram-1"></use>
+                  </svg>
+
+        </a>
+      <h3 class="features-title features-title-wrap">Планування</h3>
                 <p class="portfolio-text">
                   Так само консультація з широким активом значною мірою зумовлює.
                 </p>
              
-            </li>
-           
-              <li>
-                <h3 class="features-title features-title-wrap">Сучасні технології</h3>
+      </li>
+        <li class="whatwedo-item"><a href="" class="whatwedo-link link">
+          <svg class="whatwedo-icon" width="70" height="70">
+                    <use href="./img/whatwedo-icons.svg#icon-astronaut-1"></use>
+                  </svg>
+
+        </a>
+        <h3 class="features-title features-title-wrap">Сучасні технології</h3>
                 <p class="portfolio-text">
                   Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                 </p>
-              </li>
-            
-          </ul>
+      </li>
+      </ul>
         </div>
-      </section>
+
+          </section>
       <section class="whatwedo-section">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
@@ -257,37 +281,37 @@
         <div class="container">
           <h2 class="section-title-clients">Постійні  клієнти</h2>
       <ul class="client-list list">
-        <li class="client-item"><a href="" class="client-link link">
+        <li class="client-item"><a href="" class="client-link">
           <svg class="clients-icon" width="106" height="60">
                     <use href="./img/clients-icons.svg#icon-client1"></use>
                   </svg>
         </a></li>
-        <li class="client-item"><a href="" class="client-link link">
+        <li class="client-item"><a href="" class="client-link">
 
           <svg class="clients-icon" width="106" height="60">
                     <use href="./img/clients-icons.svg#icon-client2"></use>
                   </svg>
 
         </a></li>
-        <li class="client-item"><a href="" class="client-link link">
+        <li class="client-item"><a href="" class="client-link">
           <svg class="clients-icon" width="106" height="60">
                     <use href="./img/clients-icons.svg#icon-client3"></use>
                   </svg>
 
         </a></li>
-        <li class="client-item"><a href="" class="client-link link">
+        <li class="client-item"><a href="" class="client-link">
           <svg class="clients-icon" width="106" height="60">
                     <use href="./img/clients-icons.svg#icon-client4"></use>
                   </svg>
 
         </a></li>
-        <li class="client-item"><a href="" class="client-link link">
+        <li class="client-item"><a href="" class="client-link">
           <svg class="clients-icon" width="106" height="60">
                     <use href="./img/clients-icons.svg#icon-client5"></use>
                   </svg>
 
         </a></li>
-        <li class="client-item"><a href="" class="client-link link">
+        <li class="client-item"><a href="" class="client-link">
           <svg class="clients-icon" width="106" height="60">
                     <use href="./img/clients-icons.svg#icon-client6"></use>
                   </svg>
@@ -299,8 +323,10 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <a class="link logo logo-footer" href="./index.html"
+      
+      <div class="container2"> 
+        <div class="footer-wrap-address">
+         <a class="link logo logo-footer" href="./index.html"
           ><span class="web">Web</span><span class="webstudio-footer">Studio</span></a
         >
         
@@ -323,7 +349,42 @@
               <a class="link contacts-footer mail" href="tel:+380961111111">+38 096 111 11 11</a>
             </li>
           </ul>
-        </address>
+        </address> 
+        </div>
+        
+        
+        <div class="footer-soc-media">
+          <h3 class="footer-title">Приєднуйтесь</h3>
+
+          <ul class="footer-soc-list list-soc">
+                <li class="footer-soc-item"><a href="" class="footer-soc-link link">
+                  <svg class="team-soc-icon" width="20" height="20">
+                    <use href="./img/icons-footer.svg#icon-instagram-1"></use>
+                  </svg>
+                </a></li>
+                <li class="footer-soc-item"><a href="" class="footer-soc-link link">
+                  <svg class="team-soc-icon" width="20" height="20">
+                    <use href="./img/icons-footer.svg#icon-twitter-1"></use>
+                  </svg>
+                  
+                </a></li>
+
+                <li class="footer-soc-item"><a href="" class="footer-soc-link link">
+                <svg class="team-soc-icon" width="20" height="20">
+                    <use href="./img/icons-footer.svg#icon-facebook-1"></use>
+                  </svg>
+
+                </a></li>
+                <li class="footer-soc-item"><a href="" class="footer-soc-link link">
+                  <svg class="team-soc-icon" width="20" height="20">
+                    <use href="./img/icons-footer.svg#icon-linkedin-1"></use>
+                  </svg>
+                </a></li>
+              </ul>
+
+        </div>
+        
+
       </div>
     </footer>
   </body>
