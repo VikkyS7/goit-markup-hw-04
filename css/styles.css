@@ -469,6 +469,7 @@ fill: var(--accent-color);
 .team-soc-item {
   width: 44px;
   height: 44px;
+  fill: #AFB1B8;
 }
 
 .team-soc-list {
