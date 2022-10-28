@@ -88,6 +88,7 @@ html {
 .link {
   text-decoration: none;
   color: inherit; 
+  display:block;
 }
 /*-------HEADER------*/
 
@@ -478,7 +479,7 @@ fill: var(--accent-color);
   gap: 10px;
 }
 
-
+/*
 .instagram-hover{
  background-color: var(--accent-color); 
  fill: var(--primary-white);
@@ -486,6 +487,8 @@ fill: var(--accent-color);
   
   
 }
+
+*/
 
 .team-soc-item :hover,
 .team-soc-item :focus{
@@ -652,7 +655,7 @@ fill: var(--accent-color);
 
   color: var(--secondary-text-color);
 }
-.portfolio-link :hover, .portfolio-link :focus{
+.portfolio-link:hover, .portfolio-link:focus{
   
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
